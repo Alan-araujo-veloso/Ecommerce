@@ -459,3 +459,29 @@ body.dark footer {
     max-width: 400px;
     padding: 8px;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display:  block;    
+}   
+
+.header-bottom-side {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-bottom-side-left,
+.header-bottom-side-right {
+    flex: 1 1 300px;
+    max-width: 100%
+}
+
+.header-bottom-side-right img {
+    max-width:100%;
+    height:auto;
+    display: block;
+}
